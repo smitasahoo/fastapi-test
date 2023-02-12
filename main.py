@@ -10,13 +10,13 @@ def get_predictions(data):
     return preds
 # Design the incoming feature data
 class Features(BaseModel):
-    user_id: tf.int64
-    age: tf.int64
-    sex: tf.string
-    income:  tf.int64
-    last_connected:tf.int64
-    location:tf.string
-    job:tf.string
+    user_id: int
+    age: int
+    sex: tf.str
+    income:  int
+    last_connected:int
+    location:tf.str
+    job:tf.str
 
 @app.get("/")
 def read_root():
