@@ -15,7 +15,7 @@ class Features(BaseModel):
     sex: tf.str
     income:  int
     last_connected:int
-    location:tf.str
+    location:str
     job:tf.str
 
 @app.get("/")
