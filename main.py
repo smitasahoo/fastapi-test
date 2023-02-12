@@ -16,7 +16,7 @@ class Features(BaseModel):
     income:  int
     last_connected:int
     location:str
-    job:tf.str
+    job:str
 
 @app.get("/")
 def read_root():
