@@ -12,7 +12,7 @@ def get_predictions(data):
 class Features(BaseModel):
     user_id: int
     age: int
-    sex: tf.str
+    sex: str
     income:  int
     last_connected:int
     location:str
